@@ -45,11 +45,21 @@ console.log("Given number is ".concat(Result));
 var numA = 10;
 var numB = 12;
 
-function wordlength(word) {
-  var wordlength = word.length;
-  var ressult = wordlength % 2 == 0 ? "Even" : "Odd";
-  return ressult;
+var resultA = function wordLength(word) {
+  var wordLength = word.length;
+  var result = wordLength % 2 == 0 ? "EVEN" : "ODD";
+  return result;
+};
+
+var result = wordLength("JavaScript");
+console.log("Word \"JavaScript\" has ".concat(result, " length")); // var result = wordLength("Google");
+
+console.log("Word \"Google\" has ".concat(wordLength("Google Chrome"), " length"));
+
+function maleMarriageEligibility(gender, age, boyName) {
+  var result = gender == "Male" && age >= 21 ? "Hey ".concat(boyName, " you are eligible for marriage") : " No Try next time";
+  return result;
 }
 
-var resultt = wordlength("JavaScript");
-console.log("Word \"Javascipt\" has ".concat(ressult, " length"));
+var result = maleMarriageEligibility("Male", 25, "Billgates");
+console.log(result);

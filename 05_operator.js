@@ -1,8 +1,8 @@
 console.log(`=====Arithematic Operator`);
-let num1 = 10; 
-let num2 = 2;
+var num1 = 10; 
+var num2 = 2;
 
-let result = num1 + num2; //Addition  
+var result = num1 + num2; //Addition  
 console.log(`Addition of 10 and 2 is ${result}`);
 
 result = num1 - num2; //Substraction  
@@ -21,9 +21,9 @@ result = num1 % num2; //Modulus
 console.log(`Modulus(remainder) of 10 and 2 is ${result}`);
 
 
-let num = 10; //compund addition +=
-let A= num + 20
-let B= num+=20
+var num = 10; //compund addition +=
+var A= num + 20
+var B= num+=20
 
 console.log(A==B);
 
@@ -34,8 +34,8 @@ console.log("marks >= 35"); //Greater thab equal
 
 //Less than equal <=
 
-let marks = 70;
-let results = marks >=60 ?"Allow him for intervie":Dontallow; 
+var marks = 70;
+var results = marks >=60 ?"Allow him for intervie":Dontallow; 
 console.log((result));
 
 var age = 20;
@@ -46,10 +46,10 @@ console.log(res);
 
 
 console.log(" Check num is even or odd");
-let myNumber = 7;
+var myNumber = 7;
 //Even- divide by  2 and reminder 0
 
-let Result = myNumber%2==0? "Even" : "Odd"
+var Result = myNumber%2==0? "Even" : "Odd"
 console.log(`Given number is ${Result}`);
 
 var numA = 10; 
